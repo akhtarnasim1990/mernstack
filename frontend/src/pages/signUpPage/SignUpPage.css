@@ -1,0 +1,47 @@
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f00;
+}
+
+.main-container .content {
+  padding: 5%;
+  background-color: #ff0;
+}
+
+.main-container .content .body .row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.main-container .content .body .row label {
+  margin-bottom: 10px;
+}
+
+.main-container .content .body .row input {
+  width: 300px;
+  height: 40px;
+  padding: 10px 15px;
+}
+
+.main-container .content .body .btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main-container .content .body .btn-div .signup {
+  padding: 10px 20px;
+}
